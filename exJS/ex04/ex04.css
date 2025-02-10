@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(22, 162, 255);
+    color: aliceblue;
+    font: normal 15pt arial;
+}
+header{
+    text-align: center;
+}
+
+section{
+    background-color: aliceblue;
+    color: black;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 12pt;
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 3%;
+}
+.div1 label{
+    margin-top: 10px;
+}
+.div1 input{
+    width: 50%;
+}
+
+.div1 button{
+    width: 15%;
+}
+.div2{
+    margin-left: 3%;
+
+}
+footer{
+    margin-top: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+footer a{
+    color: aliceblue;
+}
