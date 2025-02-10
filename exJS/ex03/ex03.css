@@ -19,10 +19,19 @@ section{
     display: flex;
     flex-direction: column;
 }
-    #mult{
-        margin-top: 20px;
-    }
+#mult{
+    margin-top: 20px;
+}
+#tab{
+    margin-top: 5%;
+    width: 20%;
+}
 footer{
+    margin-top: 15px;
     font-style: italic;
     text-align: center;
+}
+
+footer a{
+    color: aliceblue;
 }

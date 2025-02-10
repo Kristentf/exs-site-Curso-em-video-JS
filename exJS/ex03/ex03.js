@@ -2,9 +2,7 @@ const numero = document.getElementById('numero')
 const tab = document.getElementById('tab')
 
 function tabuada(){
-    if (numero.value = ' ') {
-        alert('Por favor digite um número')
-    }else{
+        tab.innerHTML = ''
         let c = 0
         let num = numero.value
         while (c <= 10){
@@ -13,6 +11,6 @@ function tabuada(){
             item.value = `tab${c}`
             tab.appendChild(item)
             c++
-        }
+      
     }
 }
